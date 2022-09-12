@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 3.3)
 
-set(PROJECT project-name)
+set(PROJECT flight-processor)
 set(CMAKE_SOURCE_DIR src)
 
 project(PROJECT)
 
 set(SRC
-    .c)
+    src/main.c)
 
-set(HDR
-    .h)
+# set(HDR
+#     .h)
 
 set(SOURCE_FILES ${SRC} ${HDR})
 list(SORT SOURCE_FILES)
